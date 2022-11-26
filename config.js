@@ -21,10 +21,10 @@ global.socialm = "GitHub: Unity" //ur github or insta name
 global.location = "Tanzania" //ur location
 
 //bot bomdy 
-global.owner = ['916909137213'] //ur number
-global.ownernomer = "916909137213" //ur number
-global.ownertag = '916909137213' //ur tag number
-global.premium = ['916909137213'] //ur premium number
+global.owner = ['255684575094'] //ur number
+global.ownernomer = "255684575094" //ur number
+global.ownertag = '255684575094' //ur tag number
+global.premium = ['255684575094'] //ur premium number
 global.botname = 'Unity-Express RoseBot' //ur bot name
 global.ownername = "🦄Unity-Express"
 global.linkz = "https://youtu.be/WiIqCdiDjFo" //your theme url which will be displayed on whatsapp
