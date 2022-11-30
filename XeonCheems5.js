@@ -376,7 +376,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`ã€Œ Wa.me Link Detected ã€\`\
 //antivirtex by xeon
   if (antiVirtex) {
   if (budy.length > 3500) {
-  m.reply(`Somebody spammed virus!! Mark as readâš ï¸\n`.repeat(300))
+  m.reply(`Somebody spammed virus!! Mark as readâš ï¸\n`.repeat(20))
   m.reply(`\`\`\`ã€Œ Virus Detected ã€\`\`\`\n\nSorry You Will Be Kicked !`)
   if (!isBotAdmins) return m.reply(mess.botAdmin)
   XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
@@ -5938,11 +5938,11 @@ var unicorn = await getBuffer(picak+'All Menu')
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script ðŸ”–'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate ðŸµ'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner ðŸ¤£'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner🥰👀'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `â•”â•â•â•â•â•â•â•âœªã€Œ OWNER ã€	
+    caption: `â•”â•â•â•â•â•â•â•âœªã€Œ Owner🥰👀 ã€	
 â•  ${prefix}self
 â•  ${prefix}public
 â•  ${prefix}join [link]
