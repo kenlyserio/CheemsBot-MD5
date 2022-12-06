@@ -14,26 +14,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['255684575094'] //ur owner number
-global.ownername = "🦄Unity-C.E.O" //ur owner name
-global.ytname = "Unity-Express" //ur yt chanel name
+global.vcardowner = ['+94772136551'] //ur owner number
+global.ownername = "Shown" //ur owner name
+global.ytname = "TYL" //ur yt chanel name
 global.socialm = "GitHub: Unity" //ur github or insta name
-global.location = "Tanzania" //ur location
+global.location = "Srilanka" //ur location
 
 //bot bomdy 
-global.owner = ['255684575094'] //ur number
-global.ownernomer = "255684575094" //ur number
-global.ownertag = '255684575094' //ur tag number
-global.premium = ['255684575094'] //ur premium number
-global.botname = 'Unity-Express RoseBot' //ur bot name
-global.ownername = "🦄Unity-Express"
+global.owner = ['+94772136551'] //ur number
+global.ownernomer = "+94772136551" //ur number
+global.ownertag = '+94772136551' //ur tag number
+global.premium = ['+94772136551'] //ur premium number
+global.botname = 'TYL' //ur bot name
+global.ownername = "shown"
 global.linkz = "https://youtu.be/WiIqCdiDjFo" //your theme url which will be displayed on whatsapp
-global.websitex = "https://unity-express.com/" //ur website to be displayed
-global.botscript = 'https://github.com/emanyo-20/CheemsBot-MD5' //script link
+global.websitex = "https://kenlyserio.github.io/TYL/" //ur website to be displayed
+global.botscript = 'https://github.com/kenlyserio/CheemsBot-MD5' //script link
 global.themeemoji = "🦄" //ur theme emoji
 global.packname = "Sticker By" //ur sticker watermark packname
-global.author = "Unity-Express Bot" //ur sticker watermark author
-global.wm = "Unity-Express Ltd." //ur watermark
+global.author = "Unity-TYL" //ur sticker watermark author
+global.wm = "TYL express Ltd." //ur watermark
 
 // Other
 global.sessionName = 'session'
