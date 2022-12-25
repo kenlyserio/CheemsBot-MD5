@@ -5730,37 +5730,26 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed();
             let latensie = speed() - timestampe
-                let xeonezy = `Created by Shown
-________________________________
-
-Hi 😇 ${pushname} 
-${ucapanWaktu}❤️
-________________________________
-📱Startup : ${latensie.toFixed(4)} miliseconds
-📱RunTime : ${runtime(process.uptime())}
-📱Mark : @${ini_mark.split('@')[0]}
-📱Botname : ${global.botname}
-📱Ownernya : @${ownernya.split('@')[0]}
-📱PREFIX : NO-PREFIX 
-📱Bot status : ${XeonBotInc.public ? 'Public' : `Self`}
-📱Host : ${os.hostname()}
-📱Platform : ${os.platform()}
-📱Data : ${Object.keys(global.db.data.users).length}
-📱Users : ${jumlahcmd}
-📱******: ${jumlahharian}
-📱User : ${pushname}
-📱Contact : @${me.split('@')[0]}
-📱Premium : ${isPremium ? 'yes' : `yes`}
-📱****** : ${isPremium ? 'Infinity' : `¸${db.data.users[m.sender].limit}`}
-________________________________
-
-⌛Time : ${xtime}
-🌐Date ${xdate}
-________________________________
-
-   |Please Select🧭    |
-   |The Button Below⬇️|
-________________________________   `
+                let xeonezy = │「 Hi 👋 」
+└┬❖ 「 ${pushname} 」
+┌┤✑  How Are You? 😄
+│└────────────┈ ⳹
+│
+└─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
+│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
+│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
+│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
+└┬────────────┈ ⳹
+   │✑  Please Select
+   │✑  The Button Below
+   └─────────────┈ ⳹` `
             let ments = [ownernya, me, ini_mark]        
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: 'All Menu' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: 'List Menu' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: 'Script' }, type: 1 }]
             let buttonMessage = {
