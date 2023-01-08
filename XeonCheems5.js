@@ -2400,7 +2400,7 @@ ${themeemoji} Url : ${anu.url}`,
             }
             break
 	    case 'ytmp3': case 'ytaudio': {
-                let { yta } = require('./lib/y2mate')
+                let { yta } = require('./lib/ytdl2')
                 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
@@ -2410,7 +2410,7 @@ ${themeemoji} Url : ${anu.url}`,
             }
             break
             case 'ytmp4': case 'ytvideo': {
-                let { ytv } = require('./lib/y2mate')
+                let { ytv } = require('./lib/ytdl2')
                 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
