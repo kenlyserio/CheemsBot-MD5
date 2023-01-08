@@ -68,6 +68,7 @@
     "qrcode-reader": "^1.0.4",
     "image-to-base64": "^2.1.1",
     "yt-search": "^2.10.2"
+    "youtubedl-core": "^4.11.2"
   },
   "directories": {
     "lib": "lib",
